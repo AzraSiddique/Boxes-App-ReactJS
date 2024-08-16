@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  font-family: "Roboto";
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 20px;
+}
+
+.box {
+  font-family: "Bree Serif";
+  color: white;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.small {
+  height: 200px;
+  width: 200px;
+  background-color: #fbbf24;
+}
+
+.med {
+  height: 300px;
+  width: 300px;
+  background-color: #38bdf8;
+}
+
+.big {
+  height: 400px;
+  width: 400px;
+  background-color: #ec4899;
+}
